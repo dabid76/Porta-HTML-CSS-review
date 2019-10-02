@@ -28,7 +28,9 @@ function handleClick(){
 }
 
 function secretFunction(){
-    alert('shhhhhhhh hhh sh');
+    // alert('shhhhhhhh hhh sh');
     $( '#secretBtn').remove();
+    console.log( 'remove button');
+    
 }
 
